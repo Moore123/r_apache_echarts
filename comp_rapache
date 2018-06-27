@@ -1,0 +1,4 @@
+./configure \
+    --with-R=/usr/bin/R \
+    --with-apxs=/usr/bin/apxs \
+    --with-apreq2-config=/usr/bin/apreq2-config

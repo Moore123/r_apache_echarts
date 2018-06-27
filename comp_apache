@@ -1,0 +1,36 @@
+./configure \
+        --prefix=/usr  \
+        --exec-prefix=/usr  \
+        --bindir=/usr/bin  \
+        --sbindir=/usr/sbin  \
+        --mandir=/usr/man \
+        --libdir=/usr/lib \
+        --localstatedir=/var/log/apache2 \
+        --sysconfdir=/etc/apache2 \
+        --includedir=/usr/include  \
+        --libexecdir=/usr/modules \
+        --datadir=/home/stock/www  \
+        --with-mpm=worker  \
+        --with-included-apr \
+        --enable-suexec --with-suexec \
+        --with-suexec-uidmin=500 --with-suexec-gidmin=100  \
+        --enable-pie  \
+        --with-pcre \
+        --enable-example \
+        --enable-so \
+        --enable-cgi \
+        --enable-info \
+        --enable-rewrite \
+        --enable-speling \
+        --enable-usertrack \
+        --enable-mods-shared=all  --enable-logio --enable-deflate \
+        --enable-ssl \
+        --with-ssl=/usr  \
+        --enable-mime-magic \
+  --enable-proxy         \
+  --enable-proxy-connect \
+  --enable-proxy-ftp     \
+  --enable-proxy-http    \
+  --enable-proxy-scgi    \
+  --enable-proxy-ajp     \
+  --enable-proxy-balancer
