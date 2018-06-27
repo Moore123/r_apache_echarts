@@ -1,0 +1,8 @@
+#!/bin/bash
+./configure --prefix=/usr \
+    --enable-pcre32 \
+    --enable-pcre16 \
+    --enable-utf \
+    --enable-pcregrep-libz \
+    --enable-pcregrep-libbz2  \
+    --enable-pcretest-libreadline
